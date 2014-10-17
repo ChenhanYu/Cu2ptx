@@ -1,3 +1,4 @@
 #!/bin/bash
-export GNF_DIR=$PWD
-echo "GNF_DIR = $GNF_DIR"
+export CU2PTX_DIR=$PWD
+echo "CU2PTX_DIR = $CU2PTX_DIR"
+module load cuda
